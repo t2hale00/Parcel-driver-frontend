@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #3a76b5;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+  button {
+    padding: 12px 20px; 
+    font-size: 15px; 
+  }
+  
+}
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.LockerSelect {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 25px;
+
+}
+
+
+.LockerSelect select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: #3a76b5;
+}
+
+p {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.Box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px 0; /* Adjust margin to create space between boxes */
+  width: calc(100% - 30px); /* Make each box take up the full width */
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 22px;
+  color: #333
+}
+
+/* Basic Button Styles */
+/* Improved Button Styles */
+button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3a76b5; /* Increase border thickness for a subtle look */
+  border-radius: 5px;
+  color: #333; /* Darker text color for better contrast */
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover Effect */
+button:hover {
+  background-color: #3a76b5;
+  color: white;
+  border-color: #3a76b5; /* Adjust border color on hover */
+}
+
+
+.smallbutton {
+  padding: 10px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #3a76b5
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftBox, .rightBox {
+  width: 48%; /* Adjust the width as needed */
+}
+
+/* Add any other styles you need */
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Optionally, set the height to fill the viewport */
+}
